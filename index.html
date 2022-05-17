@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" xml:lang="en" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" style=""><head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Drupal 7 (http://drupal.org)">
+    <link rel="alternate" type="application/rss+xml" title="CaravanTravel RSS" href="http://www.caravantraveluz.com/en/rss.xml">
+    <meta name="keywords" content="uzbekistan, kazakhstan, kyrgyzstan, tajikistan, turkmenistan, central asia, hotels, tours, travel, agency, agent, tourism, information, vacation, transportation, holiday, Great, Silk Road, tours, Central Asia, West China">
+    <meta name="description" content="Discover Central Asia and China in one go. Discover Silk Road destinations. Explore the cities of the Central Asia.">
+    <link rel="shortcut icon" href="http://www.caravantraveluz.com/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
+    <title>CaravanTravel</title>
+    <meta name="yandex-verification" content="c873d0c8206bbe0a">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css/css_8I8tOCPjIVP6mfeMJ_e9IPVH1CnLb6wMloNuja55pnc.css" media="all">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css/css_PzfM54vMc32QPV3tNmorI3PMKbGxpHs-UwlE2x69bYI.css" media="all">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css/css_QpXLgt6T8vcbpia6V3S-r49vLbXKi4rIOSIoLAE8lcE.css" media="all">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="print">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css_injector/css_injector_4.css?pw51ui" media="all">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css_injector/css_injector_5.css?pw51ui" media="all">
+    <link type="text/css" rel="stylesheet" href="http://www.caravantraveluz.com/sites/default/files/css/css_TmBa5Q7VrJ_QcVKjIQ-p13uKf7ztbW-m18HFVh2Fza0.css" media="all">
+    <script type="text/javascript" async="" src="//code.jivosite.com/script/widget/801S79n8NK"></script><script type="text/javascript" src="http://www.caravantraveluz.com/sites/all/libraries/modernizr/modernizr.min.js?pw51ui"></script>
+    <script type="text/javascript" src="http://www.caravantraveluz.com/sites/default/files/js/js_dYOGV15VEcvR5zyP3UKzyEH3a6wcYkaWkQCEZ8Wpd8c.js"></script>
+    <script type="text/javascript" src="http://www.caravantraveluz.com/sites/default/files/js/js__7Mjvj_fIAGoauK0xklylKBUIHrCcijyT8yucEi2E0o.js"></script>
+    <script type="text/javascript" src="http://www.caravantraveluz.com/sites/default/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+    <script type="text/javascript" src="http://www.caravantraveluz.com/sites/default/files/js/js_3F4jEUI-ZF7jyfGCNd0rE0jAJbAL1bh99NobMYqHE8Y.js"></script>
+    <script type="text/javascript" src="http://www.caravantraveluz.com/sites/default/files/js/js_7L4AI6GSWYLAKywnW_bqkrjJ373RmEiZlraUaqTeYzg.js"></script>
+    <script type="text/javascript">
+        jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"webportal","theme_token":"daeFLcPghW9S6yDQCdGq4lCnuitj0wrdYfJJyUuKd2k","jquery_version":"1.8","js":{"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/fancybox\/fancybox.js":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.pack.js":1,"sites\/all\/libraries\/fancybox\/lib\/jquery.mousewheel-3.0.6.pack.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/webportal\/js\/script.js":1,"sites\/all\/themes\/webportal\/js\/fixto.js":1,"sites\/all\/themes\/webportal\/js\/book.js":1,"sites\/all\/themes\/webportal\/js\/tytabs.jquery.min.js":1,"sites\/all\/themes\/webportal\/js\/hideMaxListItem-min.js":1,"sites\/all\/themes\/webportal\/js\/formstyler.js":1,"sites\/all\/themes\/webportal\/js\/jquery.masonry.min.js":1,"sites\/all\/themes\/webportal\/js\/slider.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.css":1,"modules\/locale\/locale.css":1,"sites\/all\/themes\/webportal\/css\/style.css":1,"sites\/all\/themes\/webportal\/css\/mobile.css":1,"sites\/all\/themes\/webportal\/css\/icons.css":1,"sites\/all\/themes\/webportal\/css\/formstyler.css":1,"sites\/all\/themes\/webportal\/css\/slider.css":1,"sites\/all\/themes\/webportal\/css\/animation.css":1,"sites\/all\/themes\/webportal\/css\/print.css":1,"public:\/\/css_injector\/css_injector_4.css":1,"public:\/\/css_injector\/css_injector_5.css":1,"public:\/\/css_injector\/css_injector_6.css":1}},"fancybox":[],"better_exposed_filters":{"views":{"aboutus":{"displays":{"block":{"filters":[]}}},"slider_tour":{"displays":{"block":{"filters":[]}}},"office":{"displays":{"block":{"filters":[]}}},"hotel":{"displays":{"page_1":{"filters":[]}}},"regions":{"displays":{"block":{"filters":[]}}}}}});
+
+    </script>
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="/sites/all/themes/webportal/css/ie8-prev.css" type="text/css" />
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <style type="text/css">.fancybox-margin{margin-right:15px;}</style><link rel="stylesheet" href="http://code.jivosite.com/css/7d9984b/widget.css"></head>
+<body class="html front not-logged-in no-sidebars page-node i18n-en">
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="wrapper-main">
+    <header id="header" class="front-header">
+        <div class="c-box width">
+            <div class="logo front">
+                <a href="/en" title="Home" rel="home" id="logo">
+                    <img width="100%" src="http://www.caravantraveluz.com/sites/all/themes/webportal/logo.png" alt="Home">
+                </a>
+            </div> <!-- Logo -->
+            <div class="languages">
+                <div class="region region-languages">
+                    <div id="block-locale-language" class="block block-locale">
+
+
+                        <div class="content">
+                            <ul class="language-switcher-locale-url"><li class="en first active"><a href="/en" class="language-link active" xml:lang="en">EN</a></li>
+                                <li class="fr"><a href="/fr" class="language-link" xml:lang="fr">FR</a></li>
+                                <li class="de"><a href="/de" class="language-link" xml:lang="de">DE</a></li>
+                                <li class="es"><a href="/es" class="language-link" xml:lang="es">ES</a></li>
+                                <li class="ru last"><a href="/ru" class="language-link" xml:lang="ru">RU</a></li>
+                            </ul>  </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info front">
+                <div class="region region-contact-info">
+                    <div id="block-block-1" class="block block-block">
+
+
+                        <div class="content">
+                            <p class="icon-phone2">(+998 71) <span class="big"> 237 12 41</span></p>
+                            <p class="icon-mobile2">(+998 90) 323 84 97</p>
+                            <p class="icon-email2"><a href="mailto:sales@caravantraveluz.com">sales@caravantraveluz.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="region region-regions-map">
+                <div id="block-views-regions-block" class="block block-views">
+
+
+                    <div class="content">
+                        <div class="regions-map">
+
+                            <ul>
+
+                                <li class="region59">
+                                    <div class="full">
+                                        <a href="/en/content/isfahan"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/isfahan.jpg?itok=ggYhkcFw" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/isfahan">Isfahan</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region62">
+                                    <div class="full">
+                                        <a href="/en/content/mashhad"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/mashhad.jpg?itok=kVKnA8qU" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/mashhad">Mashhad</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region60">
+                                    <div class="full">
+                                        <a href="/en/content/shiraz"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/shiraz.jpg?itok=7YWxoe2B" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/shiraz">Shiraz</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region61">
+                                    <div class="full">
+                                        <a href="/en/content/teheran"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/teheran.jpg?itok=_w1zxEnG" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/teheran">Teheran</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region56">
+                                    <div class="full">
+                                        <a href="/en/content/beijing"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/china-beijing-temple_of_heaven-sunset.jpg?itok=oJqphhlm" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/beijing">Beijing</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region55">
+                                    <div class="full">
+                                        <a href="/en/content/xian"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/xian.jpg?itok=n5RQSAmd" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/xian">Xian</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region54">
+                                    <div class="full">
+                                        <a href="/en/content/lanzhou"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/lanzhou_0.jpg?itok=uqWz-E1M" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/lanzhou">Lanzhou</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region53">
+                                    <div class="full">
+                                        <a href="/en/content/xiahe"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/xiahe.jpg?itok=pfDfAz2_" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/xiahe">Xiahe</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region52">
+                                    <div class="full">
+                                        <a href="/en/content/dunhuang"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/dunhuang.jpg?itok=0zbE8b-L" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/dunhuang">Dunhuang</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region51">
+                                    <div class="full">
+                                        <a href="/en/content/miran"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/miran.jpg?itok=jW0-ngTH" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/miran">Miran</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region50">
+                                    <div class="full">
+                                        <a href="/en/content/turpan"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/emin_minaret.jpg?itok=m39mNF4_" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/turpan">Turpan</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region49">
+                                    <div class="full">
+                                        <a href="/en/content/urumqi"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/urumqi-1.jpg?itok=nr3hqTpJ" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/urumqi">URUMQI</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region57">
+                                    <div class="full">
+                                        <a href="/en/content/kuqa"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/kuqa.jpg?itok=-_-g4AOb" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/kuqa">Kuqa</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region48">
+                                    <div class="full">
+                                        <a href="/en/content/hotan"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/hotan_.jpg?itok=mKVKH-NB" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/hotan">Hotan</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region47">
+                                    <div class="full">
+                                        <a href="/en/content/yarkent"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/amanisahan_mausoleum_.jpg?itok=2wzQ57Tf" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/yarkent">Yarkent</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region46">
+                                    <div class="full">
+                                        <a href="/en/content/kashgar"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/apak_khodja_kashgar.jpg?itok=-VxGJlWf" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/kashgar">Kashgar</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region30">
+                                    <div class="full">
+                                        <a href="/en/content/dushanbe"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/dushanbe.jpg?itok=unaii0aU" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/dushanbe">Dushanbe</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region44">
+                                    <div class="full">
+                                        <a href="/en/content/bishkek"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/bishkek.jpg?itok=h_ra61Yz" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/bishkek">Bishkek</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region28">
+                                    <div class="full">
+                                        <a href="/en/content/astana"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/astana.jpg?itok=XnLVKF8d" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/astana">Astana</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region29">
+                                    <div class="full">
+                                        <a href="/en/content/almaty"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/almaty_original.png?itok=EgBI3_MV" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/almaty">Almaty</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region41">
+                                    <div class="full">
+                                        <a href="/en/content/ashgabat"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/ashgabat.jpg?itok=SEol0qRE" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/ashgabat">Ashgabat</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region40">
+                                    <div class="full">
+                                        <a href="/en/content/mary"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/mary.jpg?itok=1MTNAmfN" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/mary">Mary</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region42">
+                                    <div class="full">
+                                        <a href="/en/content/kokand"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/kokand2.jpg?itok=FcvZS1fZ" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/kokand">Kokand</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region43">
+                                    <div class="full">
+                                        <a href="/en/content/khiva"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/khiva1.jpg?itok=yF974YZc" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/khiva">Khiva</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region27">
+                                    <div class="full">
+                                        <a href="/en/content/bukhara"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/bukhara01.jpg?itok=hrM77pPb" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/bukhara">Bukhara</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region25">
+                                    <div class="full">
+                                        <a href="/en/content/tashkent"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/09.jpg?itok=prh6ZoII" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/tashkent">Tashkent</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                                <li class="region26">
+                                    <div class="full">
+                                        <a href="/en/content/samarkand"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/styles/80x80/public/regions/05.jpg?itok=a-WgkRX5" width="80" height="80" alt=""></a><h3 class="title"><a href="/en/content/samarkand">Samarkand</a></h3></div>
+                                </li>
+
+
+
+
+
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span id="pull"><img src="/sites/all/themes/webportal/images/nav-icon.png" width="100%" height="auto"></span>
+
+        </div><nav role="navigation" class="mobile-nav menu-fixed" id="navigation" style="">
+
+
+        <ul class="menu"><li class="first expanded"><a href="/en" class="active">Home</a><ul class="menu"><li class="first last leaf"><a href="/en/content/latest-news">News</a></li>
+        </ul></li>
+            <li class="leaf"><a href="/en/tours" title="">Tours</a><a href="/en/tours/filter" class="find-tour">Find a tour</a></li>
+            <li class="expanded"><a href="/en/uzbekistan">Hotels</a><ul class="menu"><li class="first leaf"><a href="/en/uzbekistan" id="uzbekistan">Uzbekistan</a></li>
+                <li class="leaf"><a href="/en/kazakhstan" id="kazakhstan">Kazakhstan</a><a href="/en/tours/filter" class="find-tour">Find a tour</a></li>
+                <li class="leaf"><a href="/en/kyrgyzstan" id="kyrgyzstan">Kyrgyzstan</a><a href="/en/hotels/filter" class="find-hotel">Find a hotel</a></li>
+                <li class="leaf"><a href="/en/tajikistan" id="tajikistan">Tajikistan</a></li>
+                <li class="leaf"><a href="/en/turkmenistan" id="turkmenistan">Turkmenistan</a></li>
+                <li class="leaf"><a href="/en/china" id="china">Xinjiang</a></li>
+                <li class="last leaf"><a href="/en/russia" id="russia">Russia</a></li>
+            </ul><a href="/en/hotels/filter" class="find-hotel">Find a hotel</a></li>
+            <li class="expanded"><a href="/en/destinations/uzbekistan">Destinations</a><ul class="menu"><li class="first leaf"><a href="/en/destinations/uzbekistan" id="uzbekistan">Uzbekistan</a></li>
+                <li class="leaf"><a href="/en/destinations/kazakhstan" title="Kazakhstan" id="kazakhstan" name="kazakhstan">Kazakhstan&nbsp;</a><a href="/en/tours/filter" class="find-tour">Find a tour</a></li>
+                <li class="leaf"><a href="/en/destinations/kyrgyzstan" title="Kyrgyzstan" id="kyrgyzstan">Kyrgyzstan</a><a href="/en/hotels/filter" class="find-hotel">Find a hotel</a></li>
+                <li class="leaf"><a href="/en/destinations/tajikistan" id="tajikistan">Tajikistan</a></li>
+                <li class="leaf"><a href="/en/destinations/turkmenistan" id="turkmenistan">Turkmenistan</a></li>
+                <li class="leaf"><a href="/en/destinations/xinjiang" title="Xinjiang" id="china" name="china">Xinjiang</a></li>
+                <li class="last leaf"><a href="/en/destinations/russia" title="Russia" id="russia" name="russia">Russia</a></li>
+            </ul></li>
+            <li class="expanded"><a href="/en/photos">Photogallery</a><ul class="menu"><li class="first last leaf"><a href="/en/content/our-tourists">Our tourists</a></li>
+            </ul></li>
+            <li class="expanded"><a href="/en/about-us">About us</a><ul class="menu"><li class="first last leaf"><a href="/en/content/guarantee-our-reliability-we-have-all-necessary-licenses-and-certificates">LICENSE</a></li>
+            </ul></li>
+            <li class="last expanded"><a href="/en/contact-us">Contact us</a><ul class="menu"><li class="first last leaf"><a href="/en/content/prepayment">Prepayment</a></li>
+            </ul></li>
+        </ul>		  	</nav>
+
+
+
+    </header>
+
+    <section id="content" class="width front-map">
+        <div class="slider">  <div class="region region-slider">
+            <div id="block-views-slider-tour-block" class="block block-views">
+
+
+                <div class="content">
+                    <div id="wowslider-tour" style="font-size: 10px;">
+                        <div class="ws_images"><div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;"><img src="http://www.caravantraveluz.com/sites/default/files/styles/slider/public/slider/st.petersburg_1.png?itok=Qt9hJNd3" title="" id="wows1_2" style="width: 100%;"></div>
+
+                            <ul style="position: absolute; top: 0px; animation: 0s ease 0s 1 normal none running none; width: 1000%; left: 0%;">
+
+                                <li style="width: 10%; font-size: 0px;"><img src="http://www.caravantraveluz.com/sites/default/files/styles/slider/public/slider/st.petersburg_1.png?itok=Qt9hJNd3" title="" id="wows1_2" style="visibility: hidden;"></li>
+
+
+
+
+
+
+
+                                <li style="width: 10%; font-size: 0px;"><img src="http://www.caravantraveluz.com/sites/default/files/styles/slider/public/slider/golden_road_to_skd55.png?itok=OAzqeu6m" title="" id="wows1_3" style="visibility: hidden;"></li>
+
+
+
+
+
+
+
+                                <li style="width: 10%; font-size: 0px;"><img src="http://www.caravantraveluz.com/sites/default/files/styles/slider/public/slider/great_silk_road_tour.jpg?itok=rVC7L8k0" title="" id="wows1_4" style="visibility: hidden;"></li>
+
+
+
+
+
+
+
+                                <li style="width: 10%; font-size: 0px;"><img src="http://www.caravantraveluz.com/sites/default/files/styles/slider/public/slider/great_silk_road_tour2.jpg?itok=vBw-INGU" title="" id="wows1_5" style="visibility: hidden;"></li>
+
+
+
+
+
+
+
+                                <li style="width: 10%; font-size: 0px;"><img src="http://www.caravantraveluz.com/sites/default/files/styles/slider/public/slider/pamir.jpg?itok=KPpQQmG-" title="" id="wows1_6" style="visibility: hidden;"></li>
+
+
+
+
+
+
+
+                                <li style="width: 10%; font-size: 0px;"><img src="http://www.caravantraveluz.com/sites/default/files/styles/slider/public/slider/rural2.jpg?itok=9NyJQaC0" title="" id="wows1_7" style="visibility: hidden;"></li>
+
+
+
+
+
+
+
+                            </ul>
+
+
+                            <div style="width: 100%; height: 100%; z-index: 8; position: absolute; left: 0px; top: 0px; display: block;"><canvas width="960" height="360" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas><canvas width="960" height="360" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div style="width: 100%; height: 100%; z-index: 8; position: absolute; left: 0px; top: 0px; display: block; opacity: 0.012561;"><canvas width="960" height="360" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas><canvas width="960" height="360" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div></div>
+                        <div class="ws_bullets"><div>
+
+                        </div><a class="bullet" href="#">2</a><a class="bullet" href="#">3</a><a class="bullet ws_selbull" href="#">4</a><a class="bullet" href="#">5</a><a class="bullet" href="#">6</a><a class="bullet" href="#">7</a></div>
+                        <div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 10; background: rgb(255, 255, 255); opacity: 0;"><a href="#" style="display:none;position:absolute;left:0;top:0;width:100%;height:100%"></a></div><a href="#" class="ws_next"></a><a href="#" class="ws_prev"></a><div class="ws-title" style="display: block; opacity: 0.610604;"><div><h3><a href="/en/tours/golden-road-tour-samarkand">Golden Road Tour to Samarkand</a></h3>
+                        <a href="/en/tours/golden-road-tour-samarkand" class="text">You can see in this trip the best-known historical cities of Uzbekistan and experience the plenitude of color of all the tourist attractions.
+                        </a>
+                        <span class="duration">10 days</span>
+                        <span class="price">Price 695$</span></div></div></div>
+                    <script>
+
+                        jQuery("#wowslider-tour").wowSlider({
+                            effect:"kenburns",
+                            prev:"",
+                            next:"",
+                            duration:20*100,
+                            delay:20*400,
+                            autoPlay:true,
+                            stopOnHover:false,
+                            loop:false,
+                            bullets:true,
+                            caption:true,
+                            captionEffect:"slide",
+                            logo:"",
+                            images:0});
+
+                        jQuery('#wowslider-tour .ws_images a.bullet').appendTo('#wowslider-tour .ws_bullets');
+
+                    </script>  </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="front-menu">
+            <ul class="menu">
+                <li><a href="/en/tours"><i class="tours"></i>Tours</a></li>
+                <li><a href="/en/hotels"><i class="hotels"></i>Hotels</a></li>
+                <li class="current"><a><i></i>Destinations</a></li>
+            </ul>
+            <ul class="submenu"><li class="first last leaf"><a href="/en/content/latest-news">News</a></li>
+            </ul>
+        </div>
+        <div class="main-inner">
+            <aside class="sidebar front-sidebar">
+                <span class="countries-map"></span>
+                <div class="search"></div>
+            </aside>
+
+            <article class="aboutus">  <div class="region region-aboutus">
+                <div id="block-views-aboutus-block" class="block block-views">
+
+
+                    <div class="content">
+                        <div class="view view-aboutus view-id-aboutus view-display-id-block view-dom-id-95af1c9d2392642c7ce4e7b195930395">
+
+
+
+                            <div class="view-content">
+                                <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+
+                                    <div>        <h3>Discover Central Asia and China in one go!</h3>  </div>
+                                    <div>        <div class="anons-text"><div class="rtejustify">
+                                        <p><span style="font-size:16px;">Welcome to International Caravan Travel Service, your handpicked selection of the very best tours to Central Asia's most amazing destinations. Choose your perfect tour, select travel dates and just let us know, and we will deal with the rest, while you enjoy your free time!</span></p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <table border="0" cellpadding="1" cellspacing="1" style="width: 875px;">
+                                            <tbody>
+                                            <tr>
+                                                <td class="rtecenter" colspan="3" style="width: 869px;">
+                                                    <span style="font-size:20px;"><strong>Why is it worth booking a tour in International Caravan Travel Service?</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="rtecenter" style="width: 300px;">
+                                                    &nbsp;</td>
+                                                <td class="rtecenter" style="width: 300px;">
+                                                    &nbsp;</td>
+                                                <td class="rtecenter" style="width: 300px;">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="rtecenter" style="width: 300px;">
+                                                    <p><a href="content/our-tourists"><span style="font-size:14px;"><img alt="" src="/sites/default/files/icons1.png" style="font-size: 12px; text-align: start; width: 180px; height: 180px;"></span></a></p>
+                                                    <p align="center"><span style="font-size:16px;"><strong>A LOT OF SATISFIED TOURISTS</strong></span></p>
+                                                    <p><span style="font-size:16px;">Thousands of satisfied foreign tourists</span></p>
+                                                </td>
+                                                <td class="rtecenter" style="width: 300px;">
+                                                    <p><span style="font-size:14px;"><img alt="" src="/sites/default/files/icons2.png" style="font-size: 12px; text-align: start; width: 180px; height: 180px;"></span></p>
+                                                    <p align="center"><span style="font-size:16px;"><strong>GREAT EXPERIENCE</strong></span></p>
+                                                    <p><span style="font-size:16px;">We have been working in the tourist services market for more than 14 years</span></p>
+                                                </td>
+                                                <td class="rtecenter" style="width: 300px;">
+                                                    <p><a href="content/guarantee-our-reliability-we-have-all-necessary-licenses-and-certificates"><span style="font-size:14px;"><img alt="" src="/sites/default/files/icons3.png" style="font-size: 12px; text-align: start; width: 180px; height: 180px;"></span></a></p>
+                                                    <p align="center"><span style="font-size:16px;"><strong>GUARANTEES OF RELIABILITY</strong></span></p>
+                                                    <p><span style="font-size:16px;">As a guarantee of reliability we have all the necessary licenses and certificates</span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="rtecenter" style="width: 282px;">
+                                                    &nbsp;</td>
+                                                <td class="rtecenter" style="width: 313px;">
+                                                    &nbsp;</td>
+                                                <td class="rtecenter" style="width: 263px;">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="rtecenter" style="width: 282px;">
+                                                    <p><span style="font-size:14px;"><img alt="" src="/sites/default/files/icons4.png" style="font-size: 12px; text-align: start; width: 180px; height: 180px;"></span></p>
+                                                    <p><span style="font-size:16px;"><strong>ONLINE CONSULTANT</strong></span></p>
+                                                    <p><span style="font-size:16px;">We will answer your questions at any time </span></p>
+                                                </td>
+                                                <td class="rtecenter" style="width: 313px;">
+                                                    <p><span style="font-size:14px;"><img alt="" src="/sites/default/files/icons5.png" style="font-size: 12px; text-align: start; width: 180px; height: 180px;"></span></p>
+                                                    <p align="center"><span style="font-size:16px;"><strong>INDIVIDUAL APPROACH</strong></span></p>
+                                                    <p><span style="font-size:16px;">We can choose an exclusive individual tour on your request&nbsp;</span></p>
+                                                </td>
+                                                <td class="rtecenter" style="width: 263px;">
+                                                    <p><span style="font-size:14px;"><img alt="" src="/sites/default/files/icons6.png" style="font-size: 12px; text-align: start; width: 180px; height: 180px;"></span></p>
+                                                    <p align="center"><span style="font-size:16px;"><strong>ATTRACTIVE PRICES</strong></span></p>
+                                                    <p><span style="font-size:16px;">Our prices will pleasantly surprise you</span></p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                        <p>&nbsp;</p>
+                                    </div>  </div>  </div>
+                            </div>
+
+
+
+
+
+
+                        </div>  </div>
+                </div>
+            </div>
+            </article>
+            <!--<div class="trip">  <div class="region region-trip">
+            <div id="block-block-2" class="block block-block">
+
+
+          <div class="content">
+            <p><a href="http://www.tripadvisor.com" target="_blank">Travaller reviews from TripAdvisor</a></p>
+          </div>
+        </div>
+          </div>
+        </div>-->
+            <article class="office">  <div class="region region-office">
+                <div id="block-views-office-block" class="block block-views">
+
+
+                    <div class="content">
+                        <div class="view view-office view-id-office view-display-id-block view-dom-id-53feb3987f08ed2a7a447f18995ffd2e">
+
+
+
+                            <div class="view-content">
+                                <div class="views-row views-row-1 views-row-odd views-row-first">
+
+                                    <h2 class="icon-head-title">Saint-Petersburg</h2>
+                                    <div class="item-box">
+                                        <span class="icon-address">39, Shelgunov str. office 34, Saint-Petersburg, Russia, 192174</span>
+                                        <span class="icon-phone">+7 (963) 302-82-33</span>
+                                        <span class="icon-fax">+7 (812) 315-68-87</span>
+                                        <span class="icon-email">gulnora@caravantraveluz.com</span>
+                                        <p class="code"></p>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="views-row views-row-2 views-row-even">
+
+                                    <h2 class="icon-head-title">Urumchi office</h2>
+                                    <div class="item-box">
+                                        <span class="icon-address">№566 Yan An Road Urumqi,Xinjiang, China, 830000</span>
+                                        <span class="icon-phone">(86 991)  2886980</span>
+                                        <span class="icon-fax">(86 991)  2881661</span>
+                                        <span class="icon-email">sales@caravantraveluz.com</span>
+                                        <p class="code"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/contact-code/caravan_urumqi_0.png" width="972" height="972" alt=""></p>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="views-row views-row-3 views-row-odd views-row-last">
+
+                                    <h2 class="icon-head-title">Tashkent office</h2>
+                                    <div class="item-box">
+                                        <span class="icon-address">59a, Mustakillik str, Tashkent, Uzbekistan, 100000</span>
+                                        <span class="icon-phone">(998 71) 237 12 41</span>
+                                        <span class="icon-mobile"><div class="item-list"><ul><li class="first">(99890) 9066535</li>
+<li class="last">(99890) 3238497</li>
+</ul></div></span>
+                                        <span class="icon-email">caravan@caravantraveluz.com</span>
+                                        <p class="code"><img typeof="foaf:Image" src="http://www.caravantraveluz.com/sites/default/files/contact-code/caravan_tashkent_0.png" width="876" height="876" alt=""></p>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>  </div>
+                </div>
+            </div>
+            </article>
+            <article class="country">
+            </article>
+
+        </div>
+    </section>
+
+
+
+
+    <div id="footer">
+        <div class="width">
+            <a href="#" id="go-top"><i></i>Back to top</a>
+            <div class="region region-contact-info">
+                <div class="region region-contact-info">
+                    <div id="block-block-1" class="block block-block">
+
+
+                        <div class="content">
+                            <p class="icon-phone2">(+998 71) <span class="big"> 237 12 41</span></p>
+                            <p class="icon-mobile2">(+998 90) 323 84 97</p>
+                            <p class="icon-email2"><a href="mailto:sales@caravantraveluz.com">sales@caravantraveluz.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="region region-copyright">
+                <div id="block-block-14" class="block block-block">
+
+
+                    <div class="content">
+                        <p><img alt="CaravanTraveluz.com" class="logo" src="/sites/default/files/logo-footer.png" style="width: 251px; height: 90px;"></p>
+                        <p class="text">ICTS Co. Ltd. 2018<br>
+                            © All Rights Reserved.</p>
+                        <p>Developed by <a href="http://magnus.digital" target="_blank"><img src="/sites/default/files/logo-magnus-web.png" style="width:130px; margin-top:20px"></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="region region-footer-menu">
+                <div id="block-menu-menu-footer-menu" class="block block-menu">
+
+
+                    <div class="content">
+                        <ul class="menu"><li class="first leaf"><a href="/en/about-us">About us</a></li>
+                            <li class="leaf"><a href="/en/contact-us">Contact us</a></li>
+                            <li class="leaf"><a href="/en/tours">Tours</a></li>
+                            <li class="leaf"><a href="/en/photos">Photogallery</a></li>
+                            <li class="leaf"><a href="/en/terms-and-conditions">Terms of Use</a></li>
+                            <li class="last leaf"><a href="/en/content/prepayment">Prepayment</a></li>
+                        </ul>  </div>
+                </div>
+                <div id="block-block-19" class="block block-block">
+
+
+                    <div class="content">
+                        <p><font style="font-size:20px"><a href="http://www.travellocal.com">www.travellocal.com</a></font></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social" style="position: fixed; top: 0; right: 0;">
+                <a href="https://www.facebook.com/uzcaravan" class="facebook"></a>
+                <a href="http://www.twitter.com/caravantraveluz" class="twitter"></a>
+                <a href="http://www.instagram.com/caravantraveluz" class="instagram"></a>
+                <a href="http://www.youtube.com/channel/UCBcYQmahy4JbVUpHfaUFavw?view_as=subscriber" class="youtube"></a>
+                <a href="http://www.caravantraveluz.com/en/content/latest-news" class="newsmir"></a>
+                <!--<a href="http://www.ok.ru" class="ok"></a>
+                <a href="http://www.plus.google.com" class="gplus"></a>
+                <a href="http://www.pinterest.com/caravantraveluz" class="pinterest"></a>
+                <a href="http://www.vk.com" class="vk"></a>
+                -->
+            </div>
+            <div class="region region-footer-code">
+                <div id="block-block-18" class="block block-block">
+
+
+                    <div class="content">
+                        <!-- BEGIN JIVOSITE CODE {literal} --><script type="text/javascript">
+                        (function(){ var widget_id = '801S79n8NK';
+                            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script><!-- {/literal} END JIVOSITE CODE -->  </div>
+                </div>
+                <div id="block-block-16" class="block block-block">
+
+
+                    <div class="content">
+                        <p><img alt="" src="/sites/default/files/contact-code/caravan_tashkent_0.png" style="width: 876px; height: 876px;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /#footer -->
+
+
+</div> <!-- /#wrapper -->
+
+
+
+
+
+<div id="jivo-iframe-container" style="opacity: 0; visibility: hidden; width: 0px; height: 0px; overflow: hidden;"><iframe src="javascript:void(0)" allow="autoplay" title="Jivochat" name="jivo_container" id="jivo_container" frameborder="no"></iframe></div><jdiv><jdiv class="globalClass_b111"><jdiv style="animation: 300ms cubic-bezier(0.39, 0.24, 0.21, 0.99) 0s 1 normal both running Label_CLOSE_WIDGET_d928; display: block; z-index: 2147483646; position: fixed;"><jdiv class="label_c5d4 _bottom_d601 notranslate" id="jvlabelWrap" style="background: linear-gradient(95deg, rgb(97, 97, 97) 20%, rgb(97, 97, 97) 80%); right: 30px; bottom: 0px;"><jdiv class="labelStatus_f5e4" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200h20v20H0z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20stroke%3D%22%23F0F1F1%22%20stroke-width%3D%221.5%22%20d%3D%22M3%203h14a2%202%200%200%201%202%202v10a2%202%200%200%201-2%202H3a2%202%200%200%201-2-2V5a2%202%200%200%201%202-2z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20stroke%3D%22%23F0F1F1%22%20stroke-width%3D%221.5%22%20d%3D%22M16.074%207.064l-6.01%204.01-6.01-4.01%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv><jdiv class="hoverl_c34d"><jdiv class="lbContainer_ca24"><jdiv class="labelButtons_f5a7 _bottom_c86e"><jdiv class="labelButton_c107"><jdiv class="text_bcbe tg_ddf4"><jdiv class="title_a640">Telegram</jdiv></jdiv></jdiv><jdiv class="labelButton_c107"><jdiv class="text_bcbe chat_f6b8"><jdiv class="title_a640">Send us a message</jdiv></jdiv></jdiv><jdiv class="buttonsCorner_bf16 bottomCorner_b709"></jdiv></jdiv></jdiv></jdiv><jdiv class="text_f9d6 _offline_d445 contentTransitionWrap_eda2" style="font-size: 14px; font-family: Arial, Arial; font-style: normal; color: rgb(240, 241, 241);">Send us message.</jdiv><jdiv class="copy_ac9f"><jdiv class="logo_edf8 _bottom_d7b6"><jdiv class="hoverBox_e18e"></jdiv><jdiv class="logoIcon_d0d6 __ru_ddd0" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2225.688%22%20height%3D%2218%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23F0F1F1%22%20d%3D%22M7.155%205.93H6.134a.4.4%200%2000-.287.128.378.378%200%2000-.123.268v7.448a.377.377%200%2000.123.28.389.389%200%2000.287.12h1.021a.382.382%200%2000.274-.12.353.353%200%2000.131-.28V6.33a.375.375%200%2000-.131-.268.353.353%200%2000-.274-.132zm9.313.02h-.824a.557.557%200%2000-.57.228l-2.353%205.04h-.041l-2.242-5.04a.379.379%200%2000-.369-.228H8.958a.356.356%200%2000-.328.14.289.289%200%2000.021.32l3.648%207.748a.376.376%200%2000.369.208h.111a.373.373%200%2000.348-.208l3.648-7.748a.288.288%200%2000.021-.32.368.368%200%2000-.328-.14zm4.935-.188a4.312%204.312%200%2000-4.3%204.276%204.212%204.212%200%20001.254%203.044%204.11%204.11%200%20003.038%201.284%204.069%204.069%200%20003.025-1.284%204.181%204.181%200%20001.262-3.044%204.313%204.313%200%2000-4.279-4.276zm1.783%206.156a2.379%202.379%200%2001-1.783.756%202.4%202.4%200%2001-1.8-.744%202.623%202.623%200%2001-.725-1.888%202.529%202.529%200%2001.725-1.84%202.427%202.427%200%20011.8-.736%202.368%202.368%200%20011.783.736%202.525%202.525%200%2001.725%201.84%202.669%202.669%200%2001-.725%201.876zM3.322%205.93H.416a.392.392%200%2000-.275.128.373.373%200%2000-.131.272v1a.386.386%200%2000.131.28.4.4%200%2000.275.12h1.475v7.17a1.331%201.331%200%2001-1.18%201.312H.416a.4.4%200%2000-.287.12.371.371%200%2000-.123.28v1a.415.415%200%2000.111.28.394.394%200%2000.295.12h.143a3.13%203.13%200%20003.152-2.9.848.848%200%2000.017-.188V6.33a.377.377%200%2000-.123-.28.365.365%200%2000-.279-.12z%22%20fill-rule%3D%22evenodd%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%2362666c%22%20d%3D%22M.03-.006c-.254%204.676%203.681%205.34%203.681%205.34C3.515.214.03-.006.03-.006z%22%20fill-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E&quot;);"></jdiv><jdiv class="fallback_e41e"></jdiv></jdiv></jdiv><jdiv class="leafCont_f047"><jdiv class="leaf_f2bf _bottom_de3c"><jdiv class="cssLeaf_f96a" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2240%22%20viewBox%3D%220%200%2032%2040%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23616161%22%20d%3D%22M0%200h9.02L32%2033.196V40H0z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23616161%22%20d%3D%22M9%200c3.581.05%2023%205.426%2023%2033.08v.03C18.922%2030.751%209%2019.311%209%205.554V0z%22%20fill-opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%235e5f61%22%20d%3D%22M9%200c3.581.05%2023%205.426%2023%2033.08v.03C18.922%2030.751%209%2019.311%209%205.554V0z%22%20fill-opacity%3D%220.7%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv><jdiv class="copyContainer_e895"><jdiv class="copyright_af9b _bottom_a5ec __ru_ad49" style="background: linear-gradient(95deg, rgb(97, 97, 97) 20%, rgb(97, 97, 97) 80%);"><jdiv class="text_b9cf" style="color: rgb(240, 241, 241);"><a href="https://www.jivochat.com/i_sa/?utm_source=www.caravantraveluz.com&amp;utm_medium=link&amp;utm_content=label_tooltip&amp;utm_campaign=from_widget" rel="nofollow noopener" target="_blank" class="link_e001 __ru_ad49">Business Messenger by <jdiv class="logoIcon_d670" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2225.688%22%20height%3D%2218%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23F0F1F1%22%20d%3D%22M7.155%205.93H6.134a.4.4%200%2000-.287.128.378.378%200%2000-.123.268v7.448a.377.377%200%2000.123.28.389.389%200%2000.287.12h1.021a.382.382%200%2000.274-.12.353.353%200%2000.131-.28V6.33a.375.375%200%2000-.131-.268.353.353%200%2000-.274-.132zm9.313.02h-.824a.557.557%200%2000-.57.228l-2.353%205.04h-.041l-2.242-5.04a.379.379%200%2000-.369-.228H8.958a.356.356%200%2000-.328.14.289.289%200%2000.021.32l3.648%207.748a.376.376%200%2000.369.208h.111a.373.373%200%2000.348-.208l3.648-7.748a.288.288%200%2000.021-.32.368.368%200%2000-.328-.14zm4.935-.188a4.312%204.312%200%2000-4.3%204.276%204.212%204.212%200%20001.254%203.044%204.11%204.11%200%20003.038%201.284%204.069%204.069%200%20003.025-1.284%204.181%204.181%200%20001.262-3.044%204.313%204.313%200%2000-4.279-4.276zm1.783%206.156a2.379%202.379%200%2001-1.783.756%202.4%202.4%200%2001-1.8-.744%202.623%202.623%200%2001-.725-1.888%202.529%202.529%200%2001.725-1.84%202.427%202.427%200%20011.8-.736%202.368%202.368%200%20011.783.736%202.525%202.525%200%2001.725%201.84%202.669%202.669%200%2001-.725%201.876zM3.322%205.93H.416a.392.392%200%2000-.275.128.373.373%200%2000-.131.272v1a.386.386%200%2000.131.28.4.4%200%2000.275.12h1.475v7.17a1.331%201.331%200%2001-1.18%201.312H.416a.4.4%200%2000-.287.12.371.371%200%2000-.123.28v1a.415.415%200%2000.111.28.394.394%200%2000.295.12h.143a3.13%203.13%200%20003.152-2.9.848.848%200%2000.017-.188V6.33a.377.377%200%2000-.123-.28.365.365%200%2000-.279-.12z%22%20fill-rule%3D%22evenodd%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%2362666c%22%20d%3D%22M.03-.006c-.254%204.676%203.681%205.34%203.681%205.34C3.515.214.03-.006.03-.006z%22%20fill-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E&quot;);"></jdiv></a></jdiv><jdiv class="corner_e679" style="border-top-color: rgb(97, 97, 97);"></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv id="jivo-player" class="player_a9f0"><audio preload="auto" id="jivo-sound-agent_message"><source src="https://code.jivosite.com/sounds/agent_message.mp3" type="audio/mpeg"><source src="https://code.jivosite.com/sounds/agent_message.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code.jivosite.com/sounds/agent_message.wav" type="audio/wav"></audio><audio preload="auto" id="jivo-sound-notification"><source src="https://code.jivosite.com/sounds/notification.mp3" type="audio/mpeg"><source src="https://code.jivosite.com/sounds/notification.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code.jivosite.com/sounds/notification.wav" type="audio/wav"></audio><audio preload="auto" id="jivo-sound-outgoing_message"><source src="https://code.jivosite.com/sounds/outgoing_message.mp3" type="audio/mpeg"><source src="https://code.jivosite.com/sounds/outgoing_message.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code.jivosite.com/sounds/outgoing_message.wav" type="audio/wav"></audio></jdiv><jdiv id="jcont" style="animation: 300ms cubic-bezier(0.39, 0.24, 0.21, 0.99) 0s 1 normal both running WidgetContainer_CLOSE_WIDGET_ccb4; --right:30px; --height:496px; display: block; position: fixed; --labelwidth:300px; --labelright:30px;"><jdiv class="wrap_d856" dir="ltr" id="jivo_action"><jdiv class="closeButton_f3de" id="jivo_close_button"><jdiv class="closeIcon_cb25" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(2%202)%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%20fill%3D%22%23FFF%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212.75%22%20stroke%3D%22%23222D38%22%20stroke-width%3D%221.5%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23222D38%22%20opacity%3D%221%22%20transform%3D%22translate(6%206)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22rotate(45%206.24%206.01)%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22scale(-1%201)%20rotate(45%200%20-9.058)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv><jdiv class="contentWrapper_e6cd"></jdiv></jdiv><jdiv class="pseudoHeight_ae09"></jdiv><jdiv class="jivoMouseTrack_c8c1"></jdiv></jdiv></jdiv></body></html>
